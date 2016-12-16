@@ -1,11 +1,19 @@
 // Resets, Clearfix, etc
 
+@import "./_reset"
+@import "./_clearfix";
+
 // Variables
 
 $dark-color : #333333;
+$light-color : #FF1493;
+$bright-color : #2C75FF;
+$padding : 10rem;
  
 // Media Query Ranges 
  
+@media 
+
 // Mixins
 
 // Styles

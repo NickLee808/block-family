@@ -1,6 +1,8 @@
 // Resets, Clearfix, etc
 
 // Variables
+
+$dark-color : #333333;
  
 // Media Query Ranges 
  
@@ -8,7 +10,7 @@
 
 // Styles
 body{
-  background-color: orange;
+  background: $dark-color;
   text-align: center;
   color: #EEE;
 }
@@ -18,6 +20,7 @@ h1, h2, h3, h4{
 }
  
 h1{
+  color: #F1F1F1;
   padding: 20px;
 }
  
